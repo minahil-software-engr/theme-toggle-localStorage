@@ -1,0 +1,21 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+}
+[data-theme="dark"],
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
