@@ -22,18 +22,18 @@ location.reload() ke zariye browser refresh hota hai. Reload hone par kyun ke lo
 
 WAY 1: CLASS TOGGLE METHOD (classList.toggle)
 
-* Working: Is mein document.body par .dark-mode CSS class ko add ya remove kiya jata hai.
-* Pros: Implement karne mein sab se easy aur beginner friendly hai, CSS code clean rehta hai.
-* Cons: Scalability kam hai, agar multi-theme system banana ho toh maintenance mushkil hoti hai.
+ Working: Is mein document.body par .dark-mode CSS class ko add ya remove kiya jata hai.
+ Pros: Implement karne mein sab se easy aur beginner friendly hai, CSS code clean rehta hai.
+ Cons: Scalability kam hai, agar multi-theme system banana ho toh maintenance mushkil hoti hai.
 
 WAY 2: CUSTOM PROPERTIES / DATA ATTRIBUTES (data-theme)
 
-* Working: Is mein html element par data-theme attribute update hota hai, jisse CSS variables automatic change ho jate hain.
-* Pros: Highly scalable aur modern production grade technique hai, multi-theme support easily handle karti hai.
-* Cons: CSS Variables aur attribute selectors ki basic understanding honi zaroori hai.
+ Working: Is mein html element par data-theme attribute update hota hai, jisse CSS variables automatic change ho jate hain.
+ Pros: Highly scalable aur modern production grade technique hai, multi-theme support easily handle karti hai.
+ Cons: CSS Variables aur attribute selectors ki basic understanding honi zaroori hai.
 
 WAY 3: DIRECT INLINE STYLES (element.style)
 
-* Working: Is mein direct JavaScript ke zariye document.body.style.backgroundColor aur color manipulate kiye jate hain.
-* Pros: CSS file par dependency kam hoti hai, quick DOM manipulation ke liye simple hai.
-* Cons: Code maintainability kharab hoti hai aur inline styles CSS rules ko override kar dete hain jo best practice nahi hai.
+ Working: Is mein direct JavaScript ke zariye document.body.style.backgroundColor aur color manipulate kiye jate hain.
+ Pros: CSS file par dependency kam hoti hai, quick DOM manipulation ke liye simple hai.
+ Cons: Code maintainability kharab hoti hai aur inline styles CSS rules ko override kar dete hain jo best practice nahi hai.
